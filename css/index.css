@@ -120,24 +120,36 @@ textarea {
   color: #1e293b;
 }
 .buy-course__courses {
+  margin: 0 0 40px;
+}
+@media (max-width: 576px) {
+  .buy-course__courses {
+    margin-bottom: 32px;
+  }
+}
+.buy-course__courses-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 40px;
-  margin: 0 0 40px;
+  display: none;
 }
 @media (max-width: 1024px) {
-  .buy-course__courses {
+  .buy-course__courses-block {
     gap: 20px;
   }
 }
 @media (max-width: 576px) {
-  .buy-course__courses {
+  .buy-course__courses-block {
     gap: 16px;
-    margin-bottom: 32px;
   }
+}
+.buy-course__courses-block.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .buy-course__course {
   display: -webkit-box;

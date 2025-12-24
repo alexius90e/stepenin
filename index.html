@@ -21,7 +21,7 @@
                 class="buy-course__grade-control-input"
                 type="radio"
                 name="grade"
-                value="11 класс"
+                value="11"
                 checked
               />
               <span class="buy-course__grade-control-text">11 класс</span>
@@ -31,187 +31,316 @@
                 class="buy-course__grade-control-input"
                 type="radio"
                 name="grade"
-                value="10 класс"
+                value="10"
               />
               <span class="buy-course__grade-control-text">10 класс</span>
             </label>
           </div>
 
           <div class="buy-course__courses">
-            <div class="buy-course__course">
-              <h3 class="buy-course__course-title">Химия</h3>
+            <div class="buy-course__courses-block" data-grade="10">
+              <div class="buy-course__course">
+                <h3 class="buy-course__course-title">Химия</h3>
 
-              <div class="buy-course__course-mode">
-                <label class="buy-course__course-mode-control">
-                  <input
-                    class="buy-course__course-mode-control-input"
-                    type="radio"
-                    name="chemistryMode"
-                    value="Самостоятельно"
-                    checked
-                  />
-                  <span class="buy-course__course-mode-control-text">Самостоятельно</span>
-                </label>
-                <label class="buy-course__course-mode-control">
-                  <input
-                    class="buy-course__course-mode-control-input"
-                    type="radio"
-                    name="chemistryMode"
-                    value="С поддержкой"
-                  />
-                  <span class="buy-course__course-mode-control-text">С поддержкой</span>
-                </label>
-              </div>
+                <div class="buy-course__course-mode">
+                  <label class="buy-course__course-mode-control">
+                    <input
+                      class="buy-course__course-mode-control-input"
+                      type="radio"
+                      name="chemistry10Mode"
+                      value="Самостоятельно"
+                      checked
+                    />
+                    <span class="buy-course__course-mode-control-text">Самостоятельно</span>
+                  </label>
+                  <label class="buy-course__course-mode-control">
+                    <input
+                      class="buy-course__course-mode-control-input"
+                      type="radio"
+                      name="chemistry10Mode"
+                      value="С поддержкой"
+                    />
+                    <span class="buy-course__course-mode-control-text">С поддержкой</span>
+                  </label>
+                </div>
 
-              <div class="buy-course__course-period">
-                <label class="buy-course__course-period-control">
-                  <input
-                    class="buy-course__course-period-control-input"
-                    type="checkbox"
-                    name="chemistryPeriod"
-                    value="Самостоятельно"
-                    checked
-                  />
-                  <span class="buy-course__course-period-control-name">Полгода</span>
-                  <span class="buy-course__course-period-control-text">янв-апр</span>
-                </label>
-                <label class="buy-course__course-period-control">
-                  <input
-                    class="buy-course__course-period-control-input"
-                    type="checkbox"
-                    name="chemistryPeriod"
-                    value="С поддержкой"
-                  />
-                  <span class="buy-course__course-period-control-name">Интенсив</span>
-                  <span class="buy-course__course-period-control-text">май</span>
-                </label>
-              </div>
+                <div class="buy-course__course-period">
+                  <label class="buy-course__course-period-control">
+                    <input
+                      class="buy-course__course-period-control-input"
+                      type="radio"
+                      name="chemistry10Period"
+                      value="Самостоятельно"
+                      checked
+                    />
+                    <span class="buy-course__course-period-control-name">Полгода</span>
+                    <span class="buy-course__course-period-control-text">янв-апр</span>
+                  </label>
+                  <label class="buy-course__course-period-control">
+                    <input
+                      class="buy-course__course-period-control-input"
+                      type="radio"
+                      name="chemistry10Period"
+                      value="С поддержкой"
+                    />
+                    <span class="buy-course__course-period-control-name">Интенсив</span>
+                    <span class="buy-course__course-period-control-text">май</span>
+                  </label>
+                </div>
 
-              <div class="buy-course__course-price">
-                <div class="buy-course__course-price-current">
-                  <span class="buy-course__course-price-current-from">от</span>
-                  <span class="buy-course__course-price-current-value">89 970 ₽</span>
+                <div class="buy-course__course-price">
+                  <div class="buy-course__course-price-current">
+                    <span class="buy-course__course-price-current-from">от</span>
+                    <span class="buy-course__course-price-current-value">89 970 ₽</span>
+                  </div>
+                </div>
+
+                <div class="buy-course__course-add">
+                  <button class="buy-course__course-add-button">Добавить к заказу</button>
+                  <button class="buy-course__course-add-success">Добавлено</button>
                 </div>
               </div>
 
-              <div class="buy-course__course-add">
-                <button class="buy-course__course-add-button">Добавить к заказу</button>
-                <button class="buy-course__course-add-success">Добавлено</button>
+              <div class="buy-course__course">
+                <h3 class="buy-course__course-title">Биология</h3>
+
+                <div class="buy-course__course-mode">
+                  <label class="buy-course__course-mode-control">
+                    <input
+                      class="buy-course__course-mode-control-input"
+                      type="radio"
+                      name="biology10Mode"
+                      value="Самостоятельно"
+                      checked
+                    />
+                    <span class="buy-course__course-mode-control-text">Самостоятельно</span>
+                  </label>
+                  <label class="buy-course__course-mode-control">
+                    <input
+                      class="buy-course__course-mode-control-input"
+                      type="radio"
+                      name="biology10Mode"
+                      value="С поддержкой"
+                    />
+                    <span class="buy-course__course-mode-control-text">С поддержкой</span>
+                  </label>
+                </div>
+
+                <div class="buy-course__course-period">
+                  <label class="buy-course__course-period-control">
+                    <input
+                      class="buy-course__course-period-control-input"
+                      type="radio"
+                      name="biology10Period"
+                      value="Самостоятельно"
+                      checked
+                    />
+                    <span class="buy-course__course-period-control-name">Полгода</span>
+                    <span class="buy-course__course-period-control-text">янв-апр</span>
+                  </label>
+                  <label class="buy-course__course-period-control">
+                    <input
+                      class="buy-course__course-period-control-input"
+                      type="radio"
+                      name="biology10Period"
+                      value="С поддержкой"
+                    />
+                    <span class="buy-course__course-period-control-name">Интенсив</span>
+                    <span class="buy-course__course-period-control-text">май</span>
+                  </label>
+                </div>
+
+                <div class="buy-course__course-price">
+                  <div class="buy-course__course-price-current">
+                    <span class="buy-course__course-price-current-from">от</span>
+                    <span class="buy-course__course-price-current-value">12 990 ₽</span>
+                  </div>
+                  <div class="buy-course__course-price-old">20 990 ₽</div>
+                </div>
+
+                <div class="buy-course__course-add">
+                  <button class="buy-course__course-add-button">Добавить к заказу</button>
+                  <button class="buy-course__course-add-success">Добавлено</button>
+                </div>
               </div>
             </div>
 
-            <div class="buy-course__course">
-              <h3 class="buy-course__course-title">Биология</h3>
+            <div class="buy-course__courses-block" data-grade="11">
+              <div class="buy-course__course">
+                <h3 class="buy-course__course-title">Химия</h3>
 
-              <div class="buy-course__course-mode">
-                <label class="buy-course__course-mode-control">
-                  <input
-                    class="buy-course__course-mode-control-input"
-                    type="radio"
-                    name="biologyMode"
-                    value="Самостоятельно"
-                    checked
-                  />
-                  <span class="buy-course__course-mode-control-text">Самостоятельно</span>
-                </label>
-                <label class="buy-course__course-mode-control">
-                  <input
-                    class="buy-course__course-mode-control-input"
-                    type="radio"
-                    name="biologyMode"
-                    value="С поддержкой"
-                  />
-                  <span class="buy-course__course-mode-control-text">С поддержкой</span>
-                </label>
-              </div>
-
-              <div class="buy-course__course-period">
-                <label class="buy-course__course-period-control">
-                  <input
-                    class="buy-course__course-period-control-input"
-                    type="checkbox"
-                    name="biologyPeriod"
-                    value="Самостоятельно"
-                    checked
-                  />
-                  <span class="buy-course__course-period-control-name">Полгода</span>
-                  <span class="buy-course__course-period-control-text">янв-апр</span>
-                </label>
-                <label class="buy-course__course-period-control">
-                  <input
-                    class="buy-course__course-period-control-input"
-                    type="checkbox"
-                    name="biologyPeriod"
-                    value="С поддержкой"
-                  />
-                  <span class="buy-course__course-period-control-name">Интенсив</span>
-                  <span class="buy-course__course-period-control-text">май</span>
-                </label>
-              </div>
-
-              <div class="buy-course__course-price">
-                <div class="buy-course__course-price-current">
-                  <span class="buy-course__course-price-current-from">от</span>
-                  <span class="buy-course__course-price-current-value">12 990 ₽</span>
+                <div class="buy-course__course-mode">
+                  <label class="buy-course__course-mode-control">
+                    <input
+                      class="buy-course__course-mode-control-input"
+                      type="radio"
+                      name="chemistry11Mode"
+                      value="Самостоятельно"
+                      checked
+                    />
+                    <span class="buy-course__course-mode-control-text">Самостоятельно</span>
+                  </label>
+                  <label class="buy-course__course-mode-control">
+                    <input
+                      class="buy-course__course-mode-control-input"
+                      type="radio"
+                      name="chemistry11Mode"
+                      value="С поддержкой"
+                    />
+                    <span class="buy-course__course-mode-control-text">С поддержкой</span>
+                  </label>
                 </div>
-                <div class="buy-course__course-price-old">20 990 ₽</div>
-              </div>
 
-              <div class="buy-course__course-add">
-                <button class="buy-course__course-add-button">Добавить к заказу</button>
-                <button class="buy-course__course-add-success">Добавлено</button>
-              </div>
-            </div>
+                <div class="buy-course__course-period">
+                  <label class="buy-course__course-period-control">
+                    <input
+                      class="buy-course__course-period-control-input"
+                      type="radio"
+                      name="chemistry11Period"
+                      value="Самостоятельно"
+                      checked
+                    />
+                    <span class="buy-course__course-period-control-name">Полгода</span>
+                    <span class="buy-course__course-period-control-text">янв-апр</span>
+                  </label>
+                  <label class="buy-course__course-period-control">
+                    <input
+                      class="buy-course__course-period-control-input"
+                      type="radio"
+                      name="chemistry11Period"
+                      value="С поддержкой"
+                    />
+                    <span class="buy-course__course-period-control-name">Интенсив</span>
+                    <span class="buy-course__course-period-control-text">май</span>
+                  </label>
+                </div>
 
-            <div class="buy-course__course">
-              <h3 class="buy-course__course-title">Русский язык</h3>
+                <div class="buy-course__course-price">
+                  <div class="buy-course__course-price-current">
+                    <span class="buy-course__course-price-current-from">от</span>
+                    <span class="buy-course__course-price-current-value">89 970 ₽</span>
+                  </div>
+                </div>
 
-              <div class="buy-course__course-mode">
-                <label class="buy-course__course-mode-control">
-                  <input
-                    class="buy-course__course-mode-control-input"
-                    type="radio"
-                    name="russianMode"
-                    value="Самостоятельно"
-                    checked
-                  />
-                  <span class="buy-course__course-mode-control-text">Самостоятельно</span>
-                </label>
-                <label class="buy-course__course-mode-control">
-                  <input
-                    class="buy-course__course-mode-control-input"
-                    type="radio"
-                    name="russianMode"
-                    value="С поддержкой"
-                  />
-                  <span class="buy-course__course-mode-control-text">С поддержкой</span>
-                </label>
-              </div>
-
-              <div class="buy-course__course-period">
-                <label class="buy-course__course-period-control">
-                  <input
-                    class="buy-course__course-period-control-input"
-                    type="checkbox"
-                    name="russianPeriod"
-                    value="Полный курс"
-                    checked
-                  />
-                  <span class="buy-course__course-period-control-name">Полный курс</span>
-                  <span class="buy-course__course-period-control-text">сент-май</span>
-                </label>
-              </div>
-
-              <div class="buy-course__course-price">
-                <div class="buy-course__course-price-current">
-                  <span class="buy-course__course-price-current-from">от</span>
-                  <span class="buy-course__course-price-current-value">7 990 ₽</span>
+                <div class="buy-course__course-add">
+                  <button class="buy-course__course-add-button">Добавить к заказу</button>
+                  <button class="buy-course__course-add-success">Добавлено</button>
                 </div>
               </div>
 
-              <div class="buy-course__course-add">
-                <button class="buy-course__course-add-button">Добавить к заказу</button>
-                <button class="buy-course__course-add-success">Добавлено</button>
+              <div class="buy-course__course">
+                <h3 class="buy-course__course-title">Биология</h3>
+
+                <div class="buy-course__course-mode">
+                  <label class="buy-course__course-mode-control">
+                    <input
+                      class="buy-course__course-mode-control-input"
+                      type="radio"
+                      name="biology11Mode"
+                      value="Самостоятельно"
+                      checked
+                    />
+                    <span class="buy-course__course-mode-control-text">Самостоятельно</span>
+                  </label>
+                  <label class="buy-course__course-mode-control">
+                    <input
+                      class="buy-course__course-mode-control-input"
+                      type="radio"
+                      name="biology11Mode"
+                      value="С поддержкой"
+                    />
+                    <span class="buy-course__course-mode-control-text">С поддержкой</span>
+                  </label>
+                </div>
+
+                <div class="buy-course__course-period">
+                  <label class="buy-course__course-period-control">
+                    <input
+                      class="buy-course__course-period-control-input"
+                      type="radio"
+                      name="biology11Period"
+                      value="Самостоятельно"
+                      checked
+                    />
+                    <span class="buy-course__course-period-control-name">Полгода</span>
+                    <span class="buy-course__course-period-control-text">янв-апр</span>
+                  </label>
+                  <label class="buy-course__course-period-control">
+                    <input
+                      class="buy-course__course-period-control-input"
+                      type="radio"
+                      name="biology11Period"
+                      value="С поддержкой"
+                    />
+                    <span class="buy-course__course-period-control-name">Интенсив</span>
+                    <span class="buy-course__course-period-control-text">май</span>
+                  </label>
+                </div>
+
+                <div class="buy-course__course-price">
+                  <div class="buy-course__course-price-current">
+                    <span class="buy-course__course-price-current-from">от</span>
+                    <span class="buy-course__course-price-current-value">12 990 ₽</span>
+                  </div>
+                  <div class="buy-course__course-price-old">20 990 ₽</div>
+                </div>
+
+                <div class="buy-course__course-add">
+                  <button class="buy-course__course-add-button">Добавить к заказу</button>
+                  <button class="buy-course__course-add-success">Добавлено</button>
+                </div>
+              </div>
+
+              <div class="buy-course__course">
+                <h3 class="buy-course__course-title">Русский язык</h3>
+
+                <div class="buy-course__course-mode">
+                  <label class="buy-course__course-mode-control">
+                    <input
+                      class="buy-course__course-mode-control-input"
+                      type="radio"
+                      name="russian11Mode"
+                      value="Самостоятельно"
+                      checked
+                    />
+                    <span class="buy-course__course-mode-control-text">Самостоятельно</span>
+                  </label>
+                  <label class="buy-course__course-mode-control">
+                    <input
+                      class="buy-course__course-mode-control-input"
+                      type="radio"
+                      name="russian11Mode"
+                      value="С поддержкой"
+                    />
+                    <span class="buy-course__course-mode-control-text">С поддержкой</span>
+                  </label>
+                </div>
+
+                <div class="buy-course__course-period">
+                  <label class="buy-course__course-period-control">
+                    <input
+                      class="buy-course__course-period-control-input"
+                      type="radio"
+                      name="russian11Period"
+                      value="Полный курс"
+                      checked
+                    />
+                    <span class="buy-course__course-period-control-name">Полный курс</span>
+                    <span class="buy-course__course-period-control-text">сент-май</span>
+                  </label>
+                </div>
+
+                <div class="buy-course__course-price">
+                  <div class="buy-course__course-price-current">
+                    <span class="buy-course__course-price-current-from">от</span>
+                    <span class="buy-course__course-price-current-value">7 990 ₽</span>
+                  </div>
+                </div>
+
+                <div class="buy-course__course-add">
+                  <button class="buy-course__course-add-button">Добавить к заказу</button>
+                  <button class="buy-course__course-add-success">Добавлено</button>
+                </div>
               </div>
             </div>
           </div>

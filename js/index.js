@@ -32,3 +32,28 @@ if (paymentTotal && paymentPaylink) {
 
   observer.observe(paymentTotal);
 }
+
+const gradeRadios = document.querySelectorAll('.buy-course__grade-control-input');
+const courseBlocks = document.querySelectorAll('.buy-course__courses-block');
+
+function updateActiveBlock() {
+  const checkedRadio = document.querySelector('.buy-course__grade-control-input:checked');
+
+  if (!checkedRadio) return;
+
+  const gradeValue = checkedRadio.value;
+
+  courseBlocks.forEach((block) => {
+    if (block.dataset.grade === gradeValue) {
+      block.classList.add('active');
+    } else {
+      block.classList.remove('active');
+    }
+  });
+}
+
+updateActiveBlock();
+
+gradeRadios.forEach((radio) => {
+  radio.addEventListener('change', updateActiveBlock);
+});

@@ -86,18 +86,29 @@
   }
 
   &__courses {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
     margin: 0 0 40px;
 
-    @include laptop {
-      gap: 20px;
+    @include mobile {
+      margin-bottom: 32px;
     }
 
-    @include mobile {
-      gap: 16px;
-      margin-bottom: 32px;
+    &-block {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      display: none;
+
+      @include laptop {
+        gap: 20px;
+      }
+
+      @include mobile {
+        gap: 16px;
+      }
+
+      &.active {
+        display: flex;
+      }
     }
   }
 
