@@ -956,6 +956,11 @@ textarea {
   transition: opacity ease-out 0.2s;
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .buy-course__payment-pay-link {
+    width: calc(100% - 32px - 40px);
+  }
+}
 .buy-course__payment-pay-link::before {
   content: "";
   position: absolute;

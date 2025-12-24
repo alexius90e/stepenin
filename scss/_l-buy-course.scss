@@ -819,6 +819,10 @@
         transition: opacity ease-out 0.2s;
         cursor: pointer;
 
+        @include tablet {
+          width: calc(100% - 16px * 2 - 20px * 2);
+        }
+
         &::before {
           content: '';
           position: absolute;
